@@ -11,7 +11,7 @@
 <a href="<%= root_path %>">Home</a>
 <hr>
 <% flash.each do |name, msg| %>
-<div><%= msg %></div>
+<div class="alert alert-error" role="alert"><%= msg %></div>
 <% end %>
 
 <%= yield %>
